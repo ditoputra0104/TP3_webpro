@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TP MOD 3 - WEBPRO - 1303223071</title>
+    </head>
+
+    <body>
+        <h1>Profil Pribadi</h1>
+        <table> <!-- <table></table>: Menandai awal dan akhir tabel -->
+
+            <tr> <!-- <tr></tr>: Table Row, mendefinisikan baris -->
+                <th>Foto Profil</th> <!-- <th></th>: Table Header, untuk sel header -->
+                <th>Video Perkenalan</th>
+            </tr>
+
+            <tr>
+                <td><img src="me.jpg" height="230" width="200"/></td> <!--<img> - Menampilkan gambar dalam halaman web.-->
+                <td> <video controls src="mee.mp4" width="150" type="video/mp4"></video> </td> <!--<video> - menampilkan dan memutar konten video dalam halaman.-->
+            </tr>
+        </table>
+
+        <h2>Tentang Saya</h2>
+        <p>Halo! Sayaadalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif</p>
+        
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+
+            <tr>
+                <td>HTML/CSS</td> <!-- <td></td>: Table Data, mendefinisikan sel data -->
+                <td>Mahir</td>
+            </tr>
+
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+
+        <h2>Hubungi Saya</h2>
+        <form action="#" method="POST"> <!-- <form></form> - Membuat formulir untuk mengumpulkan dan mengirim data pengguna ke server. -->
+            <div>
+                <label for="nama">Nama:</label>
+                <input type="text" id="name" name="name"> <!--<input> - Menerima input dari pengguna dalam berbagai bentuk (teks, checkbox, radio, dll)-->
+            </div>
+
+            <div> <!--<div> - Membuat kontainer untuk mengelompokkan dan mengatur elemen HTML lainnya.-->
+                <label for="email">Email:</label>
+                <input type="email" id="email" email="email">
+            </div>
+
+            <div>
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" pesan="pesan" rows="4" cols="25"></textarea>
+            </div>
+
+            <button type="submit">Kirim Pesan</button> <!--<button> - Membuat tombol yang dapat diklik untuk memicu aksi tertentu.-->
+        </form>
+
+        <h3>Media Sosial:</h3>
+        <a href="https://id.linkedin.com/">LinkedIn</a> | <!--<a> - Membuat hyperlink ke halaman web lain atau bagian dalam halaman yang sama.-->
+        <a href="https://github.com/">GitHub</a> |
+        <a href="https://x.com/?lang=en">Twitter</a> |
+
+
+    </body>
+</html>
